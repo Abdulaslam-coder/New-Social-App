@@ -1,0 +1,70 @@
+.register{
+    background-color: rgb(181, 92, 181);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    .card{
+        display: flex;
+        width: 50%;
+        background-color: #ffffff;
+        min-height: 600px;
+        overflow: hidden;
+        border-radius: 10px;
+        .left{
+            
+           // gap: 30px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: url('https://source.unsplash.com/random/1600x900');
+            h1{
+                font-size:50px;
+                padding: 30px;
+            }
+            form{
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    overflow: hidden;
+                    
+                    
+                    
+                input{
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px;
+                    
+                }
+                button{
+                   margin-top: 20px;
+                    width: 50%;
+                    background: rgb(167, 119, 167);
+                    border: none;
+                    padding: 10px;
+                    margin-top: 20px;
+                    cursor: pointer;
+                }
+            }
+
+        }
+        .right{
+            background-color: rgb(109, 109, 195);
+            padding-left: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            h1{
+                font-size: 100px;
+            }
+            button{
+                width: 50%;
+                padding: 10px;
+                margin-top: 20px;
+                background-color: rgb(167, 119, 167);
+                border: none;
+                cursor:pointer;
+            }
+        }
+    }
+}
